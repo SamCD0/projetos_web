@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "fonte1" ;
+    src: url(Fontes/Horta\ demo.otf);
+}
+header {
+    background-color: blueviolet;
+    height: 120px;
+    width: 1895px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "fonte1";
+}
+nav{
+    display: flex;
+    gap: 50px;
+    padding: 150px;
+    font-size: xx-large; 
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-left: 20px ;
+}
+
+.card-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas: "a a a a";
+    gap: 20px;
+    width: 1300px;
+    padding: 30px;
+    
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card-content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+
+.card-content .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    margin: 295px 0px 0px 0px;
+}

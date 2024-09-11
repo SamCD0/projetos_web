@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "fonte1" ;
+    src: url(Fontes/Horta\ demo.otf);
+}
+header {
+    background-color: blueviolet;
+    height: 120px;
+    width: 1895px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "fonte1";
+}
+nav{
+    display: flex;
+    gap: 50px;
+    padding: 150px;
+    font-size: xx-large; 
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding-left: 20px ;
+    text-align: center;
+}
+p {
+    padding-left: 20px ;
+    text-align: center;
+}
+footer {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    margin: 760px 0px 0px 0px;
+}
+.video{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+

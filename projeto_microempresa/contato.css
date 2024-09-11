@@ -1,0 +1,50 @@
+header {
+    background-color: blueviolet;
+    height: 120px;
+    width: 1895px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "fonte1";
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+min-height: 100vh;
+}
+    form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250;
+    height: 250;
+}
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+}   
+textarea{
+    height: 120px;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px; 
+    border: none;
+    cursor: pointer;
+}
+    button:hover {
+        background-color: #45a049;
+                                      
+    }
